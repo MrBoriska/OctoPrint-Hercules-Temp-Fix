@@ -1,4 +1,13 @@
 # Hercules 3d printer temperature reporting fix
+
+> UPDATE! This may be fix in config.txt on internal flash of 3d printer
+> 
+> `temperature_control.hotend.designator T0`
+> 
+> `temperature_control.hotend2.designator T1`
+
+
+
 Fixes the temperature reporting from the printer described in [this OctoPrint forum topic](https://community.octoprint.org/t/extruder-temperature-is-not-shown-on-the-graph/36328/9).
 
 ```
